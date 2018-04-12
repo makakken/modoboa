@@ -57,6 +57,7 @@ INSTALLED_APPS = (
     "ckeditor_uploader",
     "rest_framework",
     "rest_framework.authtoken",
+    "webpack_loader",
 )
 
 # A dedicated place to register Modoboa applications
@@ -265,5 +266,9 @@ LOGGING = {
         }
     }
 }
+
+# Load admin settings
+from modoboa.admin import settings as admin_settings  # noqa
+admin_settings.apply(globals())
 
 # Load settings from extensions
