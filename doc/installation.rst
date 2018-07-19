@@ -2,6 +2,12 @@
 Installation
 ############
 
+Minimum Requirements
+===============
+* CPU:
+* RAM:
+* Disk-Space:
+
 Recommended way
 ===============
 
